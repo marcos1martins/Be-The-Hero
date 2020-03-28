@@ -1,11 +1,16 @@
 import React from 'react';
 
+import './global.css'
+
+import Routes from './routes'
+
 // JSX - JavaScript XML
 //componete do react - uma função que retorna html
 
 function App() {
+
   return (
-    <h1>Hello OmniStack</h1>
+    <Routes/>
   );
 }
 
